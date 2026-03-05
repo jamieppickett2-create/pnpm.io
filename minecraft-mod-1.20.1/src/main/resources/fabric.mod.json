@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "codexmod",
+  "version": "${version}",
+  "name": "Codex Mod",
+  "description": "A starter Fabric mod for Minecraft 1.20.1 created by Codex.",
+  "authors": [
+    "Codex"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.codexmod.CodexMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
